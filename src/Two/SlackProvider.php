@@ -7,7 +7,7 @@ class SlackProvider extends AbstractProvider implements ProviderInterface {
     /**
      * {@inheritdoc}
      */
-    protected $scopes = [];
+    protected $scopes = ['read'];
 
     /**
      * {@inheritdoc}
